@@ -1,0 +1,163 @@
+body{
+	font-family: kumbh sans;
+	font-size: 18px;
+	background-color: hsl(185, 75%, 39%);
+
+}
+.container{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	max-width: 1440px;
+	overflow: hidden;
+	height: 100vh;
+}
+.container #bgtop{
+	position: absolute;
+	left: -35rem;
+	top: -45rem;
+	z-index: -1;
+}
+.container #bgbottom{
+	position: absolute;
+	bottom: -35rem;
+	right: -45rem;
+	z-index: -1;
+}
+.container .card{
+	border-radius: 15px;
+	background-color: #ffffff;
+	display: flex;
+	flex-flow: column nowrap;
+	line-height: 1.5rem;
+	position: relative;
+	height: auto;
+	width: 25rem;
+	align-items: center;
+	
+}
+.container .card #bgimage{
+	position: absolute;
+	width: 100%;
+	position: absolute;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+.container .card #image-victor{
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+	margin-top: 7.5rem;
+	margin-bottom: 1rem;
+	width: 90px;
+	clip-path: circle(50px at center);
+}
+.container .card h1{
+	font-weight: 700;
+	color: hsl(229, 23%, 23%);
+	
+}
+.container .card h1 span{
+	font-weight: 400;
+	color:  hsl(227, 10%, 46%);
+	
+}
+.container .card p{
+	color: hsl(227, 10%, 46%);
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.container .card .stats{
+	border-top: 1px solid hsl(0, 0%, 59%);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin: 1rem 0 0 0;
+	padding: 1rem 0 1rem 0;
+	width: 100%;
+}
+.container .card .stats .count h2{
+	color:hsl(229, 23%, 23%);
+	font-weight: 700;
+}
+.container .card .stats .count h2 span{
+	color: hsl(227, 10%, 46%);
+	font-weight: 400;
+	font-size: 1rem;
+}
+@media(min-width: 675px){
+	.container #bgtop{
+		position: absolute;
+		top: -35rem;
+		left: -40rem;
+		z-index: -1;
+	}
+	.container #bgbottom{
+		position: absolute;
+		bottom: -37rem;
+		right: -39rem;
+		z-index: -1;
+	}
+}
+@media(min-width: 830px){
+	.container #bgtop{
+		position: absolute;
+		top: -35rem;
+		left:-35rem;
+		z-index: -1;
+	}
+	.container #bgbottom{
+		position: absolute;
+		bottom: -38rem;
+		right: -33rem;
+		z-index: -1;
+	}
+}
+@media(min-width: 985px){
+	.container #bgtop{
+		position: absolute;
+		top: -35rem;
+		left:-30rem;
+		z-index: -1;
+	}
+	.container #bgbottom{
+		position: absolute;
+		bottom: -39rem;
+		right: -37rem;
+		z-index: -1;
+	}
+}
+@media(min-width: 1165px){
+	.container #bgtop{
+		position: absolute;
+		top: -35rem;
+		left:-25rem;
+		z-index: -1;
+	}
+	.container #bgbottom{
+		position: absolute;
+		bottom: -40rem;
+		right: -20rem;
+		z-index: -1;
+	}
+}
+@media(min-width: 1325px){
+	.container #bgtop{
+		position: absolute;
+		top: -35rem;
+		left:-15rem;
+		z-index: -1;
+	}
+	.container #bgbottom{
+		position: absolute;
+		bottom: -41rem;
+		right: -15rem;
+		z-index: -1;
+	}
+}
+
